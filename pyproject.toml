@@ -10,6 +10,8 @@ packages = [{include = "fastapi_practice"}]
 python = "^3.11"
 fastapi = "^0.95.1"
 uvicorn = "^0.22.0"
+sqlalchemy = "^2.0.13"
+alembic = "^1.10.4"
 
 
 [build-system]
