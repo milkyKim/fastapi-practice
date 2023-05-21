@@ -4,7 +4,6 @@ from pydantic import BaseModel, validator, EmailStr
 class User(BaseModel):
     id: int
     username: str
-    password: str
     email: str
 
     class Config:
